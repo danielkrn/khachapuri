@@ -1,0 +1,12 @@
+2021-03-27 18:45:20.918 CET [45299] LOG:  starting PostgreSQL 12.1 on x86_64-apple-darwin16.7.0, compiled by Apple LLVM version 8.1.0 (clang-802.0.42), 64-bit
+2021-03-27 18:45:20.920 CET [45299] LOG:  listening on IPv6 address "::1", port 5432
+2021-03-27 18:45:20.920 CET [45299] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-03-27 18:45:20.922 CET [45299] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-03-27 18:45:20.939 CET [45300] LOG:  database system was shut down at 2021-03-27 18:44:54 CET
+2021-03-27 18:45:20.945 CET [45299] LOG:  database system is ready to accept connections
+2021-03-27 18:45:24.070 CET [45307] FATAL:  database "db/development_postgres_db" does not exist
+2021-03-27 18:51:18.609 CET [45299] LOG:  received fast shutdown request
+2021-03-27 18:51:18.609 CET [45299] LOG:  aborting any active transactions
+2021-03-27 18:51:18.611 CET [45299] LOG:  background worker "logical replication launcher" (PID 45306) exited with exit code 1
+2021-03-27 18:51:18.611 CET [45301] LOG:  shutting down
+2021-03-27 18:51:18.626 CET [45299] LOG:  database system is shut down
